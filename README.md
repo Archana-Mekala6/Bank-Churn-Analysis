@@ -2,12 +2,12 @@
 
 
 
-![Churn Overview Dashboard](page1_churn_overview)
+![Churn Overview Dashboard](page1_churn_overview.png)
 
 
 
 
-![Retention Drivers Dashboard](page2_retention_drivers)
+![Retention Drivers Dashboard](page2_retention_drivers.png)
 
 
 
