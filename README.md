@@ -7,7 +7,7 @@
 
 
 
-![Retention Drivers Dashboard](page2_retention_drivers.png)
+![Retention Drivers Dashboard](page2_retention_drivers_strategies.png)
 
 
 
