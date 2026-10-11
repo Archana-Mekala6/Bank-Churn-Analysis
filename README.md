@@ -35,7 +35,7 @@ Key fields include Geography, Age, Tenure, Credit Score, Number of Products, Acc
 * **Overall churn:** 2,037 of 10,000 customers churned (**20.37%**); 7,963 were retained.
 * **Geography:** Germany had the highest churn rate at **32.44%**, compared with Spain at 16.67% and France at 16.15%.
 * **Customer activity:** Inactive customers churned at **26.85%** versus **14.27%** for active customers, a gap of 12.58 percentage points.
-* **Product usage:** Churn was 27.71% for customers with one product and 7.58% for those with two products. Churn was far higher for customers with three products (82.71%) and four products (100%), but these groups are small (n = [add count] and n = [add count]), so the rates should be read with caution. This also shows that more products do not automatically mean lower churn.
+* **Product usage:** Churn was 27.71% for customers with one product and 7.58% for those with two products. Churn was far higher for customers with three products (82.71%,n=266) and four products (100%,n=60), but these groups are small, so the rates should be read with caution. This also shows that more products do not automatically mean lower churn.
 * **Priority segments:** The segments below are overlapping groups, not separate ones.
 
 | Segment | Customers | Churned | Churn Rate |
@@ -45,7 +45,7 @@ Key fields include Geography, Age, Tenure, Credit Score, Number of Products, Acc
 | Inactive + 1 Product | 2,521 | 924 | 36.65% |
 
 * **Credit score:** Churn ranged only from 18.62% (Good) to 22.02% (Poor), and the order was not a clean progression. Credit score alone does not strongly distinguish churn risk.
-* **Tenure:** Churn ranged from 18.70% to 21.15% across tenure bands, with the highest rate in the 0-2 year band (21.15%). The differences are small, so tenure is a weak signal in this dataset.
+* **Tenure:** Churn ranged from 18.22% (7-8 yrs) to 21.30% (9+yrs), with no clear trend across bands. The 9+ yr and 0-2 yr bands were highest. Tenure is a weak signal in this dataset.
 
 ## Power BI Dashboard
 
@@ -72,9 +72,8 @@ Listed in suggested priority order, based on both churn rate and the number of c
 
 1. **Re-engage inactive single-product customers:** This segment has the most churned customers (924 of 2,521) and a 36.65% churn rate. Test personalized communication and engagement campaigns.
 2. **Prioritize Germany:** Germany's single-product customers churn at 42.85%, rising to 52.08% among inactive ones. Investigate the reasons and test localized retention strategies.
-3. **Review product mix carefully:** One-product customers churn more than two-product customers, but three- and four-product customers churn much more. Understand why before pushing cross-selling.
-4. **Test early-tenure engagement at low priority:** The 0-2 year band shows slightly higher churn (21.15%), but the difference from other bands is small. Treat onboarding support as a low-cost experiment, not a main driver.
-5. **Monitor high-risk segments:** Track churn rates and retention outcomes to evaluate whether interventions work.
+3. **Review product mix carefully:** One-product customers churn more than two-product customers, but three- and four-product customers churn much more. Understand why before pushing cross-selling
+4. **Monitor high-risk segments:** Track churn rates and retention outcomes to evaluate whether interventions work.
 
 ## Project Workflow
 
